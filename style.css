@@ -34,7 +34,7 @@
   margin-top: 50px;
 }
 .nav_left {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--primary_font_color);
 }
@@ -78,12 +78,12 @@
   justify-content: center;
 }
 .prebook_title {
-  font-size: 52px;
+  font-size: 3.25rem;
   font-weight: 700;
   color: var(--primary_font_color);
 }
 .prebook_des {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--primary_font_color);
   margin: 16px 0;
@@ -96,4 +96,29 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+/* styling for media queries */
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    display: none;
+  }
+  .prebook {
+    flex-direction: column-reverse;
+  }
+  .prebook_info {
+    text-align: center;
+    align-items: center;
+  }
+  .prebook_img img {
+    width: 60%;
+  }
+  .prebook_title {
+    font-size: 1.75rem;
+  }
+  .prebook_des {
+    font-size: 0.9rem;
+    padding: 0 18px;
+  }
 }
