@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.poppins_font {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary_font_color: #3a3a3a;
+}
+
+.primary_btn {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  background: #e02c6d;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 40px;
+}
+/* navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.nav_left {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary_font_color);
+}
+.nav_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+}
+.nav_right li {
+  list-style: none;
+}
+.nav_right li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--primary_font_color);
+}
+.nav_right img {
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_icon2 img {
+  width: 36px;
+}
+
+/* prebook section styling */
+
+.prebook {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.prebook_info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.prebook_title {
+  font-size: 52px;
+  font-weight: 700;
+  color: var(--primary_font_color);
+}
+.prebook_des {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary_font_color);
+  margin: 16px 0;
+}
+.prebook_img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  background-image: url("images/Circle\ design.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
