@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Influencer Gear</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -11,12 +18,16 @@
       <nav class="navbar">
         <div class="nav_left">
           <h4>Influencer products</h4>
+          <img class="ham_menu" src="logos/more.png" alt="" />
         </div>
         <div class="nav_right">
-          <li><a href="" class="nav_list">Home</a></li>
-          <li><a href="" class="nav_list">Products</a></li>
-          <li><a href="" class="nav_list">Sign Up</a></li>
-          <li><a href="" class="nav_list">Log In</a></li>
+          <span class="menu">
+            <li><a href="" class="nav_list">Home</a></li>
+            <li><a href="" class="nav_list">Products</a></li>
+            <li><a href="" class="nav_list">Sign Up</a></li>
+            <li><a href="" class="nav_list">Log In</a></li>
+            <i class="fa-solid fa-xmark icon_x"></i>
+          </span>
           <li class="nav_icon">
             <img src="logos/magnifying-glass.png" alt="" />
           </li>
@@ -30,7 +41,7 @@
       <!-- prebook section -->
       <section class="prebook">
         <div class="prebook_info">
-          <h1 class="prebook_title">Start your Journey as Influencer</h1>
+          <h2 class="prebook_title">Start your Journey as Influencer</h2>
           <p class="prebook_des">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem
             vestibulum sed scelerisque eros. Lectus faucibus.
@@ -255,7 +266,41 @@
           </div>
         </div>
       </section>
+      <!-- featured section -->
+      <section class="featured">
+        <div class="featured_img">
+          <img src="images/gear.png" alt="" />
+        </div>
+        <div class="featured_info">
+          <h2 class="featured_title">Featured products at one place</h2>
+          <p class="featured_des">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+          <button id="featured_btn" class="primary_btn">Join Now</button>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <h4>Influencer products</h4>
+      <p>Copyright © 2020 influencer products</p>
+      <p>All rights reserved</p>
+      <div class="icons">
+        <span>
+          <i class="fa-brands fa-instagram"></i>
+        </span>
+        <span>
+          <i class="fa-solid fa-basketball"></i>
+        </span>
+        <span>
+          <i class="fa-brands fa-twitter"></i>
+        </span>
+        <span>
+          <i class="fa-brands fa-youtube"></i>
+        </span>
+      </div>
+    </footer>
   </body>
+  <script src="main.js"></script>
 </html>
